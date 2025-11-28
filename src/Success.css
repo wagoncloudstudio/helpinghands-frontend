@@ -1,0 +1,86 @@
+.success-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.success-card {
+  background: white;
+  padding: 40px 30px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  animation: fadeIn 1s ease;
+}
+
+.success-icon {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.success-card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.success-text {
+  color: #555;
+  font-size: 1.05rem;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.success-details h3 {
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.success-details p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.success-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.success-btn {
+  padding: 14px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.home-btn {
+  background: #444;
+  color: white;
+}
+
+.home-btn:hover {
+  background: #222;
+}
+
+.donate-btn {
+  background: #ff7a00;
+  color: white;
+}
+
+.donate-btn:hover {
+  background: #e06600;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(25px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
